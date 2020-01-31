@@ -1,0 +1,100 @@
+id: cd918ed8547c42a990cd37c1cfba4996
+annotation_type: tsawa
+revision: '00001'
+annotations:
+- id: e7a862715ff54fd292b068ba98813887
+  span:
+    start: 5291
+    end: 5718
+- id: 0ebe167e7a0d4503bb569c5d7ca57f13
+  span:
+    start: 8211
+    end: 8492
+- id: fbf4e2123b6e49008cc0cf2fd83b9e69
+  span:
+    start: 22391
+    end: 22422
+- id: f7308d8bc8e5466d981e89c26cc488ef
+  span:
+    start: 32331
+    end: 32590
+- id: 02200fc3856b4aab92feab773247e8f7
+  span:
+    start: 32953
+    end: 33075
+- id: 624351b357b242bdaecca1b8693d5a9f
+  span:
+    start: 33481
+    end: 33546
+- id: c832a7b07edd4839bc847fa3182a7467
+  span:
+    start: 37947
+    end: 38433
+- id: 5e86a5a5833d41d887135d4bf389b99c
+  span:
+    start: 48199
+    end: 48256
+- id: 0e921455e94d443fba9736e666a2d1e9
+  span:
+    start: 53232
+    end: 53363
+- id: 80afe588d14d41869e0f2ab5d468b344
+  span:
+    start: 53714
+    end: 53914
+- id: b83200bbe8724e9ea9fc92b369d75014
+  span:
+    start: 63124
+    end: 63314
+- id: ffbe8160523642c1b4cd0d0689423cc6
+  span:
+    start: 63325
+    end: 63738
+- id: 566642fd02314961b6686689e8c7386f
+  span:
+    start: 78780
+    end: 79325
+- id: 673e0e623cd140fdaf1a38cf3b475798
+  span:
+    start: 79336
+    end: 79662
+- id: 2181f2a5ad3243e69de153098c3bc229
+  span:
+    start: 79679
+    end: 80029
+- id: 949cf802464946f19508aaa33ebd8774
+  span:
+    start: 80866
+    end: 81624
+- id: aaad62b1156b476d9345e4722ce10794
+  span:
+    start: 82060
+    end: 82334
+- id: 07c7e46fda2e43f28fa5e22d9a09c0d1
+  span:
+    start: 86127
+    end: 86791
+- id: 5cbbdb7427344527aa46c3595a078d0f
+  span:
+    start: 100085
+    end: 100378
+- id: e0b95e6c25f44a09b7d3f7688a0726c1
+  span:
+    start: 100420
+    end: 100443
+- id: 3359e353d5184dd4a9207e83694e3e81
+  span:
+    start: 101863
+    end: 101888
+- id: 4398497c97b74609ba0013d6d9072705
+  span:
+    start: 102623
+    end: 103032
+- id: 38ecfd9e45384eff8354db696ae087c0
+  span:
+    start: 104357
+    end: 104556
+- id: 57993d72214f4319865bc09748897d34
+  span:
+    start: 105837
+    end: 105889
