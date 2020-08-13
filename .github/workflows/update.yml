@@ -1,0 +1,68 @@
+name: Update OPF
+
+on: 
+  issues:
+    types: [opened]
+
+jobs:
+  format:
+    if: (github.event.issue.labels[0].name == 'update')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+#       - name: Setup tmate session
+#         uses: mxschmitt/action-tmate@v2
+      
+      - name: Install openpecha-toolkit
+        run: pip install openpecha
+      
+      - name: Clone publication branch and Format
+        run: |
+          # Get Pecha Id
+          loc=$(pwd)
+          repo_name=${loc##*/}
+          
+          # Clone publication branch
+          git clone --depth 1 -b publication https://github.com/OpenPecha/$repo_name.git
+          
+          # Format with HFMLFormatter
+          # Runner directory structure
+          # - pwd -> ~/work/P######/P######
+          # - opf_path -> pwd / P######.opf
+          # - publication branch clone -> pwd / P######/
+          openpecha format -i $repo_name -o ~/work/$repo_name ./$repo_name
+        shell: bash
+        
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *.opf
+          git commit -m "Update pecha"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+        
+  release:
+    needs: format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 1
+      
+      - name: Install openpecha
+        run: pip install openpecha
+      
+      - name: Create opf release
+        run: |
+          from pathlib import Path
+          from openpecha.github_utils import create_release
+          
+          pecha_num = Path.cwd().name
+          create_release(pecha_num)
+        shell: python
