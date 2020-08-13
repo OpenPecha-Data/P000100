@@ -1,12 +1,7 @@
 id: d390231bf8784985807d56aced7c5f3c
 annotation_type: Sabche
-revision: '00002'
+revision: '00003'
 annotations:
-  62883528e8cc40258a2b06d5e212066a:
-    span:
-      start: 913
-      end: 941
-    isverse: false
   27df804196f943178be22c80ffec7ace:
     span:
       start: 6862
