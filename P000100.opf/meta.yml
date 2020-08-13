@@ -3,37 +3,15 @@ ebook_metadata:
     །
   authors:
   - མཛད་པ་པོ། འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས། །
-  sku: LEK-PHI-001
+  sku: P000101
+  cover: LEK-PHI-001.jpg
   layers:
-  - book_title
-  - author
-  - chapter_title
-  - quotation
-  - sabche
-web_metadata:
-  title:
-    en: The Torch of Certainty:A Short Explanation on the Four Preliminary Practices
-      and the Main Practice of Mahamudra
-    bo: ཕྱག་ཆེན་སྔོན་འགྲོ་བཞི་སྦྱོར་དང་དངོས་གཞིའི་ཁྲིད་རིམ་མདོར་བསྡུས་ངེས་དོན་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་སོ།།
-  collection:
-    en: Lekshey Ling Philosophy Series–  Book 1
-    bo: ལེགས་བཤད་གླིང་རིགས་པའི་གཞུང་ལུགས།–  དེབ། ༡
-  author:
-    en: Jamgon Kongtrul Lodro Thaye
-    bo: འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས།
-  pusblisher:
-    en: Lekshey Ling Publications
-    bo: ཀརྨ་ལེགས་བཤད་གླིང།
-  sku: LEK-PHI-001
-  category:
-    en: Preliminary Practices
-    bo: སྔོན་འགྲོ།
-  org:
-    bo: Timeless Treasuries
-    en: མཐའ་ཡས་དཔེ་མཛོད།
-  website: http://dharmacloud.tsadra.org
-  aquisition_data: '2019-07-18'
-  filename: LEK-PHI-001.epub
-  description:
-    en: ''
-    bo: ''
+  - BookTitle
+  - PotiTitle
+  - Author
+  - Chapter
+  - Pagination
+  - Tsawa
+  - Citation
+  - Sabche
+  - Yigchung
