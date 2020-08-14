@@ -1,12 +1,7 @@
 id: d390231bf8784985807d56aced7c5f3c
 annotation_type: Sabche
-revision: '00003'
+revision: '00004'
 annotations:
-  27df804196f943178be22c80ffec7ace:
-    span:
-      start: 6862
-      end: 6955
-    isverse: false
   3959675eebd5410f8fb59172b0922e24:
     span:
       start: 7336
@@ -118,7 +113,6 @@ annotations:
       end: 89496
     isverse: false
 local_ids:
-  62883528e8cc40258a2b06d5e212066a: 200000
   27df804196f943178be22c80ffec7ace: 200001
   3959675eebd5410f8fb59172b0922e24: 200002
   6f8c3b598ba94d4badf39797f983ec53: 200003
