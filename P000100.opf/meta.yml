@@ -6,9 +6,6 @@ ebook_metadata:
   sku: P000101
   cover: LEK-PHI-001.jpg
   layers:
-  - BookTitle
-  - PotiTitle
-  - Author
   - Chapter
   - Pagination
   - Tsawa
