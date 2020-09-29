@@ -30,15 +30,18 @@ jobs:
           loc=$(pwd)
           repo_name=${loc##*/}
           
+          # Get branch name
+          $branch = $(echo -n "${ISSUE_BODY//[[:space:]]/}")
+          
           # Clone publication branch
-          git clone --depth 1 -b publication https://github.com/OpenPecha/$repo_name.git
+          git clone --depth 1 -b $branch https://github.com/OpenPecha/$repo_name.git
           rm -rf $repo_name/.git
           
           # Format with HFMLFormatter
           # Runner directory structure
           # - pwd -> ~/work/P######/P######
           # - opf_path -> pwd / P######.opf
-          # - publication branch clone -> pwd / P######/
+          # - publication branch clone -> pwd / P######/+
           openpecha format -o ~/work/$repo_name ./$repo_name
         shell: bash
         
