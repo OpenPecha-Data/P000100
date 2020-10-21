@@ -1,20 +1,14 @@
-id: opecha:P000100                                          # Catalog
-initial_creation_type: tsadra-epub                          # Catalog
-
-source_metadata:                                            # Exporting
-  title: ༄༅། །ཕྱག་ཆེན་སྔོན་འགྲོ་བཞི་སྦྱོར་དང་དངོས་གཞིའི་ཁྲིད་རིམ་མདོར་བསྡུས་ངེས་དོན་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་སོ།།
-  subtitle:
+ebook_metadata:
+  title: ༄༅། །ཕྱག་ཆེན་སྔོན་འགྲོ་བཞི་སྦྱོར་དང་དངོས་གཞིའི་ཁྲིད་རིམ་མདོར་བསྡུས་ངེས་དོན་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་སོ།
+    །
   authors:
-    - མཛད་པ་པོ། འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས། །
-  collection-title:
-  publisher:
-  images:
-    cover-image: assets/images/LEK-PHI-001.jpg
-    publication-data-image: assets/images/LEK-PHI-001.jpg
-    content-images-path: assets/images/content/
-
-layers:                                                     # Editing
-- Chapter
-- Citation
-- Sabche
-- Yigchung
+  - མཛད་པ་པོ། འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས། །
+  sku: P000101
+  cover: LEK-PHI-001.jpg
+  layers:
+  - Chapter
+  - Pagination
+  - Tsawa
+  - Citation
+  - Sabche
+  - Yigchung
